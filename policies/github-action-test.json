@@ -1,0 +1,9 @@
+{
+  "action": "github-action-test",
+    "permissions": [{
+      "organization": "mthbernardes"
+    }],
+    "description": "github action test",
+    "inputs": ["text"] 
+}
+
