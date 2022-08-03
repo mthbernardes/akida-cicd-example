@@ -16,7 +16,7 @@ jobs:
           echo '${{ toJSON(github.event)}}' > payload.json
 
       - name: Authenticate
-        uses: mthbernardes/akita@v1
+        uses: mthbernardes/akita@main
 
       - name: Execute after authenticated
         run: |
